@@ -1,8 +1,8 @@
 export default function Hero() {
   return (
     <section id="hero">
-      <div className="px-12 mx-auto max-w-7xl mt-40">
-        <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 pr-96">
+      <div className="mx-auto w-9/12 mt-24">
+        <div className="w-1/2 mr-auto text-left">
           <h1 className="text-3xl font-extrabold leading-none tracking-normal mb-2">
             Hi, my name is
           </h1>
