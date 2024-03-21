@@ -1,13 +1,15 @@
-import { Link } from 'react-router-dom'
-import logo from '../assets/logo.png'
+import { Link } from 'react-router-dom';
+import Logo from './Logo';
 
 export default function Header() {
   return (
-    <header className="pt-5 flex flex-row">
-      <Link to="/">
-        <img src={logo} alt="Logo" className="max-w-20 pl-5"/>
-      </Link>
+    <header className="flex flex-row">
+      <div className="p-3">
+        <Link to="/">
+          <Logo/>
+        </Link>
+      </div>
       test test
     </header>
-  )
+  );
 }

@@ -16,8 +16,14 @@ export default {
         gray: {
           light: '#E0E1DD'
         }
+      },
+      strokeWidth: {
+        logo: '0.2px'
       }
     },
+  },
+  variants: {
+    fill: ['hover', 'focus'],
   },
   plugins: [],
 }
